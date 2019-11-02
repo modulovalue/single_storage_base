@@ -35,12 +35,6 @@ abstract class StorageBase<T> {
   /// methods.
   StorageBase<T> map(String Function(String) m) =>
       _StorageBasePathDecorator(this, m);
-
-  /// Convenience function for
-  ///
-  ///     map((String str) => "$somewhere$str");
-  ///
-  StorageBase<T> forDomain(String domain) => map((String str) => "$domain$str");
 }
 
 /// Concrete storage at a specific location.

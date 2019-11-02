@@ -1,4 +1,4 @@
-import 'package:single_storage_base.dart/single_storage_base.dart';
+import 'package:single_storage_base/single_storage_base.dart';
 
 void main() {
   final storage = MyStorage();
