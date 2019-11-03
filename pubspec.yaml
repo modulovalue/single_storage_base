@@ -1,6 +1,6 @@
 name: single_storage_base
 description: A platform agnostic key-value storage interface for Dart & Flutter.
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://www.github.com/modulovalue/single_storage_base
 issue_tracker: https://github.com/modulovalue/single_storage_base/issues
 author: Modestas Valauskas <valauskasmodestas+dartpub@gmail.com>
